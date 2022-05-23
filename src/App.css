@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  background-color: #282c34;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+}
 .App {
   text-align: center;
 }
@@ -6,7 +12,24 @@
   height: 40vmin;
   pointer-events: none;
 }
-
+.headerContainer {
+  margin: 15px;
+}
+input {
+  height: 40px;
+  width: 300px;
+  margin: 20px;
+  flex-direction: row;
+  justify-content: center;
+  border-radius: 15px;
+  font-weight: 500;
+  padding: 5px 10px 5px 10px;
+}
+input::placeholder {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 15px;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;

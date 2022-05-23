@@ -1,0 +1,64 @@
+.cryptoContainerInfo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  height: 100vh;
+  width: 100vw;
+}
+.cryptoInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 600px;
+  height: 700px;
+  background-color: rgb(0, 0, 0, 0.8);
+  border-radius: 20px;
+}
+.cryptoInfo h1 {
+  color: white;
+  font-size: 60px;
+  text-transform: uppercase;
+  font-weight: 700;
+  background-color: transparent;
+}
+.cryptoInfo img {
+  height: 200px;
+  margin: 30px 0px 30px 0px;
+  background-color: transparent;
+}
+.cryptoInfo ul {
+  background-color: transparent;
+  margin: 0;
+}
+.cryptoInfo li {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  align-items: center;
+  margin: 5px 0px 5px 0px;
+  background-color: transparent;
+}
+.cryptoInfoHeader {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 5px 0px 5px 0px;
+  background-color: transparent;
+  width: 200px;
+}
+.cryptoInfoData {
+  color: white;
+  font-size: 25px;
+  font-weight: 400;
+  background-color: transparent;
+  width: 350px;
+}
+.backButton {
+  width: 160px;
+  height: 35px;
+}
